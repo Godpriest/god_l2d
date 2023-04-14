@@ -24,8 +24,8 @@ const live2d = PIXI.live2d;
   const app = new PIXI.Application({
     view: document.getElementById("canvas"),
     autoStart: true,
-    resizeTo: window * 9.5,
-    backgroundColor: 0x333333
+    resizeTo: window * 0.95,
+    backgroundColor: transparent
   });
 
   const models = await Promise.all([
