@@ -3,11 +3,16 @@
 <head>
   <meta charset="UTF-8">
   <title>God的Live2D模型展示</title>
-  <style>
+<style>
   #canvas {
     margin: 0;
     padding: 0;
     border: 0;
+  }
+
+  body, html {
+    margin: 0;
+    padding: 0;
   }
 </style>
 </head>
@@ -61,8 +66,9 @@ const live2d = PIXI.live2d;
 
   const model4 = models[0];
 
-  model4.x = innerHeight * 0.5;
-
+  model4.x = (innerWidth / 2) - (model.width / 2);
+  model4.y = (innerHeight / 2) - (model.height / 2);
+  
   // handle tapping
   model4.on("hit", (hitAreas) => {
     if (hitAreas.includes("Body")) {
