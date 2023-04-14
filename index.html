@@ -42,7 +42,7 @@ const live2d = PIXI.live2d;
 
    app.renderer.view.style.width = window.innerWidth * 0.99 + "px";
    app.renderer.view.style.height = window.innerHeight * 0.99 + "px";
-  
+
   const models = await Promise.all([
     live2d.Live2DModel.from(cubism4Model)
   ]);
@@ -56,7 +56,7 @@ const live2d = PIXI.live2d;
     // fit the window
     model.scale.set(Math.min(scaleX, scaleY));
 
-    model.y = innerHeight * -0.4;
+    model.y = innerHeight * 0;
 
     draggable(model);
     addFrame(model);
@@ -65,8 +65,8 @@ const live2d = PIXI.live2d;
 
   const model4 = models[0];
 
-  model4.x = (innerWidth / 2) - (model.width / 2);
-  
+  model4.x = model4.width;
+
   // handle tapping
   model4.on("hit", (hitAreas) => {
     if (hitAreas.includes("Body")) {
@@ -104,7 +104,7 @@ function addFrame(model) {
 
   model.addChild(foreground);
 
-  // checkbox("Model Frames", (checked) => (foreground.visible = checked));
+  checkbox("Model Frames", (checked) => (foreground.visible = checked));
 }
 
 function addHitAreaFrames(model) {
@@ -112,7 +112,7 @@ function addHitAreaFrames(model) {
 
   model.addChild(hitAreaFrames);
 
-  // checkbox("Hit Area Frames", (checked) => (hitAreaFrames.visible = checked));
+  checkbox("Hit Area Frames", (checked) => (hitAreaFrames.visible = checked));
 }
 
 function checkbox(name, onChange) {
