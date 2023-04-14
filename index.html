@@ -24,7 +24,7 @@ const live2d = PIXI.live2d;
   const app = new PIXI.Application({
     view: document.getElementById("canvas"),
     autoStart: true,
-    resizeTo: window,
+    resizeTo: window * 9.5,
     backgroundColor: 0x333333
   });
 
@@ -95,7 +95,7 @@ function addFrame(model) {
 function addHitAreaFrames(model) {
   const hitAreaFrames = new live2d.HitAreaFrames();
 
-  model.addChild(hitAreaFrames);
+  // model.addChild(hitAreaFrames);
 
   // checkbox("Hit Area Frames", (checked) => (hitAreaFrames.visible = checked));
 }
