@@ -50,8 +50,8 @@ const live2d = PIXI.live2d;
   models.forEach((model) => {
     app.stage.addChild(model);
 
-    const scaleX = (innerWidth * 1.0) / model.width;
-    const scaleY = (innerHeight * 1.0) / model.height;
+    const scaleX = (innerWidth * 0.75) / model.width;
+    const scaleY = (innerHeight * 0.75) / model.height;
 
     // fit the window
     model.scale.set(Math.min(scaleX, scaleY));
@@ -65,7 +65,7 @@ const live2d = PIXI.live2d;
 
   const model4 = models[0];
 
-  model4.x = innerWidth * 0;
+  model4.x = innerWidth * 0.05;
 
   // handle tapping
   model4.on("hit", (hitAreas) => {
