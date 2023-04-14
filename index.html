@@ -68,8 +68,8 @@ function draggable(model) {
   model.buttonMode = true;
   model.on("pointerdown", (e) => {
     model.dragging = true;
-    model._pointerX = e.data.global.x - model.x;
-    model._pointerY = e.data.global.y - model.y;
+    model._pointerX = innerWidth / 2;
+    model._pointerY = innerHeight / 2;
   });
   model.on("pointermove", (e) => {
     if (model.dragging) {
