@@ -56,7 +56,7 @@ const live2d = PIXI.live2d;
     // fit the window
     model.scale.set(Math.min(scaleX, scaleY));
 
-    model.y = innerHeight * -0.5;
+    model.y = innerHeight * -0.4;
 
     draggable(model);
     addFrame(model);
@@ -110,7 +110,7 @@ function addFrame(model) {
 function addHitAreaFrames(model) {
   const hitAreaFrames = new live2d.HitAreaFrames();
 
-  // model.addChild(hitAreaFrames);
+  model.addChild(hitAreaFrames);
 
   // checkbox("Hit Area Frames", (checked) => (hitAreaFrames.visible = checked));
 }
