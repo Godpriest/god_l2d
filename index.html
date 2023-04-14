@@ -24,8 +24,8 @@ const live2d = PIXI.live2d;
   const app = new PIXI.Application({
     view: document.getElementById("canvas"),
     autoStart: true,
-    resizeTo: window,
-    backgroundColor: 0xFFFFFF
+    resizeTo: window * 0.95,
+    backgroundColor: 0x333333
   });
 
   const models = await Promise.all([
@@ -68,13 +68,13 @@ function draggable(model) {
   model.buttonMode = true;
   model.on("pointerdown", (e) => {
     model.dragging = true;
-    model._pointerX = innerWidth / 2;
-    model._pointerY = innerHeight / 2;
+    model._pointerX = e.data.global.x - model.x;
+    model._pointerY = e.data.global.y - model.y;
   });
   model.on("pointermove", (e) => {
     if (model.dragging) {
-      model.position.x = e.data.global.x - model._pointerX;
-      model.position.y = e.data.global.y - model._pointerY;
+      model.position.x = innerWidth / 2;
+      model.position.y = innerHeight / 2;
     }
   });
   model.on("pointerupoutside", () => (model.dragging = false));
