@@ -3,6 +3,13 @@
 <head>
   <meta charset="UTF-8">
   <title>God的Live2D模型展示</title>
+  <style>
+  #canvas {
+    margin: 0;
+    padding: 0;
+    border: 0;
+  }
+</style>
 </head>
 <body>
 <script src="https://cubism.live2d.com/sdk-web/cubismcore/live2dcubismcore.min.js"></script>
@@ -28,8 +35,8 @@ const live2d = PIXI.live2d;
     backgroundColor: 0x333333
   });
 
-  app.renderer.view.style.width = window.innerWidth * 0.95 + "px";
-  app.renderer.view.style.height = window.innerHeight * 0.95 + "px";
+  // app.renderer.view.style.width = window.innerWidth * 0.95 + "px";
+  // app.renderer.view.style.height = window.innerHeight * 0.95 + "px";
   
   const models = await Promise.all([
     live2d.Live2DModel.from(cubism4Model)
@@ -76,8 +83,8 @@ function draggable(model) {
   });
   model.on("pointermove", (e) => {
     if (model.dragging) {
-      model.position.x = innerWidth / 2;
-      model.position.y = innerHeight / 2;
+      model.position.x = e.data.global.x - model._pointerX;
+      model.position.y = e.data.global.y - model._pointerY;
     }
   });
   model.on("pointerupoutside", () => (model.dragging = false));
