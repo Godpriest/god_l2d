@@ -41,7 +41,7 @@ const live2d = PIXI.live2d;
     // fit the window
     model.scale.set(Math.min(scaleX, scaleY));
 
-    model.y = innerHeight * 0.1;
+    model.y = innerHeight * 0.5;
 
     draggable(model);
     addFrame(model);
@@ -50,7 +50,7 @@ const live2d = PIXI.live2d;
 
   const model4 = models[0];
 
-  model4.x = model4.width;
+  model4.x = innerHeight * 0.5;
 
   // handle tapping
   model4.on("hit", (hitAreas) => {
