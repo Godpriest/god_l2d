@@ -40,8 +40,8 @@ const live2d = PIXI.live2d;
     backgroundColor: 0x333333
   });
 
-   app.renderer.view.style.width = window.innerWidth * 0.98 + "px";
-   app.renderer.view.style.height = window.innerHeight * 0.98 + "px";
+   app.renderer.view.style.width = window.innerWidth * 0.99 + "px";
+   app.renderer.view.style.height = window.innerHeight * 0.99 + "px";
   
   const models = await Promise.all([
     live2d.Live2DModel.from(cubism4Model)
@@ -56,8 +56,7 @@ const live2d = PIXI.live2d;
     // fit the window
     model.scale.set(Math.min(scaleX, scaleY));
 
-    model.y = 0;
-    model.x = 0;
+    model.y = innerHeight * 1.0;
 
     draggable(model);
     addFrame(model);
@@ -66,8 +65,7 @@ const live2d = PIXI.live2d;
 
   const model4 = models[0];
 
-  model4.x = (innerWidth / 2) - (model.width / 2);
-  model4.y = 0;
+  model4.x = 0;
   
   // handle tapping
   model4.on("hit", (hitAreas) => {
