@@ -56,8 +56,8 @@ const live2d = PIXI.live2d;
     // fit the window
     model.scale.set(Math.min(scaleX, scaleY));
 
-    model.y = (innerHeight / 2) - (model.height / 2);
-    model.x = (innerWidth / 2) - (model.width / 2);
+    model.y = 0;
+    model.x = 0;
 
     draggable(model);
     addFrame(model);
