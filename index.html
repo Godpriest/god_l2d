@@ -24,10 +24,13 @@ const live2d = PIXI.live2d;
   const app = new PIXI.Application({
     view: document.getElementById("canvas"),
     autoStart: true,
-    resizeTo: window * 0.95,
+    resizeTo: window,
     backgroundColor: 0x333333
   });
 
+  app.renderer.view.style.width = window.innerWidth * 0.95 + "px";
+  app.renderer.view.style.height = window.innerHeight * 0.95 + "px";
+  
   const models = await Promise.all([
     live2d.Live2DModel.from(cubism4Model)
   ]);
