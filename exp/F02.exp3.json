@@ -1,0 +1,15 @@
+{
+	"Type": "Live2D Expression",
+	"Parameters": [
+		{
+			"Id": "Mouth_Smile",
+			"Value": -1,
+			"Blend": "Add"
+		},
+		{
+			"Id": "ParamEyeSmile",
+			"Value": -1,
+			"Blend": "Add"
+		}
+	]
+}

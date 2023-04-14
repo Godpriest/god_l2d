@@ -1,0 +1,73 @@
+{
+	"Version": 3,
+	"FileReferences": {
+		"Moc": "godweb.moc3",
+		"Textures": [
+			"godweb.2048/texture_00.png",
+			"godweb.2048/texture_01.png",
+			"godweb.2048/texture_02.png"
+		],
+		"Physics": "godweb.physics3.json",
+		"DisplayInfo": "godweb.cdi3.json",
+		"Expressions": [
+			{
+				"Name": "F01",
+				"File": "exp/F01.exp3.json"
+			},
+			{
+				"Name": "F02",
+				"File": "exp/F02.exp3.json"
+			},
+			{
+				"Name": "F03",
+				"File": "exp/F03.exp3.json"
+			}
+		],
+		"Motions": {
+			"TapBody": [
+				{
+					"File": "motions/Hello.motion3.json",
+					"Sound": "sounds/Hello.wav",
+					"FadeInTime": 0.5,
+					"FadeOutTime": 0.5
+				},
+				{
+					"File": "motions/Welcome.motion3.json",
+					"Sound": "sounds/你好歡迎參觀.wav",
+					"FadeInTime": 0.5,
+					"FadeOutTime": 0.5
+				}
+			],
+			"Idle": [
+				{
+					"File": "motions/Idle.motion3.json"
+				}
+			]
+		}
+	},
+	"Groups": [
+		{
+			"Target": "Parameter",
+			"Name": "EyeBlink",
+			"Ids": [
+				"ParamEyeROpen",
+				"ParamEyeLOpen"
+			]
+		},
+		{
+			"Target": "Parameter",
+			"Name": "LipSync",
+			"Ids": []
+		}
+	],
+	"HitAreas": [
+		{
+			"Id": "HitArea",
+			"Name": "Head"
+		},
+		{
+			"Id": "HitArea2",
+			"Name": "Body"
+		}
+	]
+}
