@@ -1,0 +1,672 @@
+{
+	"Version": 3,
+	"Parameters": [
+		{
+			"Id": "ParamEyeBallX",
+			"GroupId": "ParamGroup2",
+			"Name": "瞳孔_X"
+		},
+		{
+			"Id": "ParamEyeBallY",
+			"GroupId": "ParamGroup2",
+			"Name": "瞳孔_Y"
+		},
+		{
+			"Id": "ParamEyeROpen",
+			"GroupId": "ParamGroup2",
+			"Name": "右眼_開閉"
+		},
+		{
+			"Id": "ParamEyeROpen2",
+			"GroupId": "ParamGroup2",
+			"Name": "右眼_睜大眼"
+		},
+		{
+			"Id": "ParamEyeBallX_L",
+			"GroupId": "ParamGroup2",
+			"Name": "左瞳孔_X"
+		},
+		{
+			"Id": "ParamEyeBallY_L",
+			"GroupId": "ParamGroup2",
+			"Name": "左瞳孔_Y"
+		},
+		{
+			"Id": "ParamEyeLOpen",
+			"GroupId": "ParamGroup2",
+			"Name": "左眼_開閉"
+		},
+		{
+			"Id": "ParamEyeJOpen2",
+			"GroupId": "ParamGroup2",
+			"Name": "左眼_睜大眼"
+		},
+		{
+			"Id": "ParamEyeSmile",
+			"GroupId": "ParamGroup2",
+			"Name": "雙眼_開心_生氣"
+		},
+		{
+			"Id": "Eye_W_RGB_R",
+			"GroupId": "ParamGroup3",
+			"Name": "眼_白_RGB_R"
+		},
+		{
+			"Id": "Eye_W_RGB_G",
+			"GroupId": "ParamGroup3",
+			"Name": "眼_白_RGB_G"
+		},
+		{
+			"Id": "Eye_W_RGB_B",
+			"GroupId": "ParamGroup3",
+			"Name": "眼_白_RGB_B"
+		},
+		{
+			"Id": "Eye_B_RGB_R",
+			"GroupId": "ParamGroup3",
+			"Name": "眼_黑_RGB_R"
+		},
+		{
+			"Id": "Eye_B_RGB_G",
+			"GroupId": "ParamGroup3",
+			"Name": "眼_黑_RGB_G"
+		},
+		{
+			"Id": "Eye_B_RGB_B",
+			"GroupId": "ParamGroup3",
+			"Name": "眼_黑_RGB_B"
+		},
+		{
+			"Id": "Eye_HL_RGB_R2",
+			"GroupId": "ParamGroup3",
+			"Name": "眼_高光_RGB_R"
+		},
+		{
+			"Id": "Eye_HL_RGB_G2",
+			"GroupId": "ParamGroup3",
+			"Name": "眼_高光_RGB_G"
+		},
+		{
+			"Id": "Eye_HL_RGB_B2",
+			"GroupId": "ParamGroup3",
+			"Name": "眼_高光_RGB_B"
+		},
+		{
+			"Id": "ParamMouthOpenY",
+			"GroupId": "ParamGroup4",
+			"Name": "嘴_開閉"
+		},
+		{
+			"Id": "ParamMouthForm",
+			"GroupId": "ParamGroup4",
+			"Name": "嘴_變形"
+		},
+		{
+			"Id": "Mouth_Smile",
+			"GroupId": "ParamGroup4",
+			"Name": "嘴_笑_生氣"
+		},
+		{
+			"Id": "Mouth1_RGB_R",
+			"GroupId": "ParamGroup",
+			"Name": "嘴_外側_RGB_R"
+		},
+		{
+			"Id": "Mouth1_RGB_G",
+			"GroupId": "ParamGroup",
+			"Name": "嘴_外側_RGB_G"
+		},
+		{
+			"Id": "Mouth1_RGB_B",
+			"GroupId": "ParamGroup",
+			"Name": "嘴_外側_RGB_B"
+		},
+		{
+			"Id": "Mouth2_RGB_R",
+			"GroupId": "ParamGroup",
+			"Name": "嘴_舌頭_RGB_R"
+		},
+		{
+			"Id": "Mouth2_RGB_G",
+			"GroupId": "ParamGroup",
+			"Name": "嘴_舌頭_RGB_G"
+		},
+		{
+			"Id": "Mouth2_RGB_B",
+			"GroupId": "ParamGroup",
+			"Name": "嘴_舌頭_RGB_B"
+		},
+		{
+			"Id": "Hair_RGB_R",
+			"GroupId": "ParamGroup6",
+			"Name": "前髮_RGB_R"
+		},
+		{
+			"Id": "Hair_RGB_G",
+			"GroupId": "ParamGroup6",
+			"Name": "前髮_RGB_G"
+		},
+		{
+			"Id": "Hair_RGB_B",
+			"GroupId": "ParamGroup6",
+			"Name": "前髮_RGB_B"
+		},
+		{
+			"Id": "LED1_RGB_R",
+			"GroupId": "ParamGroup5",
+			"Name": "LED1_RGB_R"
+		},
+		{
+			"Id": "LED1_RGB_G2",
+			"GroupId": "ParamGroup5",
+			"Name": "LED1_RGB_G"
+		},
+		{
+			"Id": "LED1_RGB_B2",
+			"GroupId": "ParamGroup5",
+			"Name": "LED1_RGB_B"
+		},
+		{
+			"Id": "LED2_RGB_R",
+			"GroupId": "ParamGroup5",
+			"Name": "LED2_RGB_R"
+		},
+		{
+			"Id": "LED2_RGB_G",
+			"GroupId": "ParamGroup5",
+			"Name": "LED2_RGB_G"
+		},
+		{
+			"Id": "LED2_RGB_B",
+			"GroupId": "ParamGroup5",
+			"Name": "LED2_RGB_B"
+		},
+		{
+			"Id": "LED_Light_transparency",
+			"GroupId": "ParamGroup5",
+			"Name": "LED_發光_透明度"
+		},
+		{
+			"Id": "ParamAngleX",
+			"GroupId": "ParamGroup7",
+			"Name": "頭_X"
+		},
+		{
+			"Id": "ParamAngleY",
+			"GroupId": "ParamGroup7",
+			"Name": "頭_Y"
+		},
+		{
+			"Id": "ParamAngleZ",
+			"GroupId": "ParamGroup7",
+			"Name": "頭_Z"
+		},
+		{
+			"Id": "Arm_Phy_X",
+			"GroupId": "ParamGroup8",
+			"Name": "手臂_物理_X"
+		},
+		{
+			"Id": "Arm_Phy_Y",
+			"GroupId": "ParamGroup8",
+			"Name": "手臂_物理_Y"
+		},
+		{
+			"Id": "Body_Phy_X",
+			"GroupId": "ParamGroup8",
+			"Name": "身體_物理_X1"
+		},
+		{
+			"Id": "Body_Phy_X2",
+			"GroupId": "ParamGroup8",
+			"Name": "身體_物理_X2"
+		},
+		{
+			"Id": "Body_Phy_X3",
+			"GroupId": "ParamGroup8",
+			"Name": "身體_物理_X3"
+		},
+		{
+			"Id": "Body_Phy_Y",
+			"GroupId": "ParamGroup8",
+			"Name": "身體_物理_Y"
+		},
+		{
+			"Id": "Jack_Phy_X",
+			"GroupId": "ParamGroup8",
+			"Name": "夾克前_物理_X"
+		},
+		{
+			"Id": "Jack_Phy_Y",
+			"GroupId": "ParamGroup8",
+			"Name": "夾克前_物理_Y"
+		},
+		{
+			"Id": "Hair_Front_Phy_X1",
+			"GroupId": "ParamGroup8",
+			"Name": "前髮_物理_X1"
+		},
+		{
+			"Id": "Hair_Front_Phy_X2",
+			"GroupId": "ParamGroup8",
+			"Name": "前髮_物理_X2"
+		},
+		{
+			"Id": "Hair_Front_Phy_X3",
+			"GroupId": "ParamGroup8",
+			"Name": "前髮_物理_X3"
+		},
+		{
+			"Id": "Hair_Front_Phy_Y",
+			"GroupId": "ParamGroup8",
+			"Name": "前髮_物理_Y"
+		},
+		{
+			"Id": "Eye_L_Phy_Y",
+			"GroupId": "ParamGroup8",
+			"Name": "左眼_物理_Y"
+		},
+		{
+			"Id": "Eye_R_Phy_Y",
+			"GroupId": "ParamGroup8",
+			"Name": "右眼_物理_Y"
+		},
+		{
+			"Id": "Eye_Fire_Phy_X",
+			"GroupId": "ParamGroup8",
+			"Name": "眼睛火亮光_物理_X"
+		},
+		{
+			"Id": "Eye_Fire_Phy_Y",
+			"GroupId": "ParamGroup8",
+			"Name": "眼睛火亮光_物理_Y"
+		},
+		{
+			"Id": "Eye_Fire_Phy_Z",
+			"GroupId": "ParamGroup8",
+			"Name": "眼睛火亮光_物理_Z"
+		},
+		{
+			"Id": "exp_jacket_hide",
+			"GroupId": "ParamGroup9",
+			"Name": "表情_隱藏夾克"
+		},
+		{
+			"Id": "exp_gloves_hide",
+			"GroupId": "ParamGroup9",
+			"Name": "表情_隱藏手套"
+		},
+		{
+			"Id": "exp_eye_fire_mode",
+			"GroupId": "ParamGroup9",
+			"Name": "表情_眼睛火光_模式"
+		},
+		{
+			"Id": "exp_eye_fire_mode2",
+			"GroupId": "ParamGroup9",
+			"Name": "表情_眼睛火光_殘影_模式"
+		},
+		{
+			"Id": "eye_fire_RGB_R",
+			"GroupId": "ParamGroup12",
+			"Name": "眼睛火亮光_RGB_R"
+		},
+		{
+			"Id": "eye_fire_RGB_G",
+			"GroupId": "ParamGroup12",
+			"Name": "眼睛火亮光_RGB_G"
+		},
+		{
+			"Id": "eye_fire_RGB_B",
+			"GroupId": "ParamGroup12",
+			"Name": "眼睛火亮光_RGB_B"
+		},
+		{
+			"Id": "eye_fire_RGB_R2",
+			"GroupId": "ParamGroup12",
+			"Name": "眼睛火亮光_黑_RGB_R"
+		},
+		{
+			"Id": "eye_fire_RGB_G2",
+			"GroupId": "ParamGroup12",
+			"Name": "眼睛火亮光_黑_RGB_G"
+		},
+		{
+			"Id": "eye_fire_RGB_B2",
+			"GroupId": "ParamGroup12",
+			"Name": "眼睛火亮光_黑_RGB_B"
+		},
+		{
+			"Id": "ParamBreath",
+			"GroupId": "ParamGroup10",
+			"Name": "呼吸"
+		},
+		{
+			"Id": "Arm_L_Z",
+			"GroupId": "ParamGroup10",
+			"Name": "左手_擺動Z"
+		},
+		{
+			"Id": "Arm_R_Z",
+			"GroupId": "ParamGroup10",
+			"Name": "右手_擺動Z"
+		},
+		{
+			"Id": "Body_X",
+			"GroupId": "ParamGroup11",
+			"Name": "身體_X"
+		},
+		{
+			"Id": "Body_Y",
+			"GroupId": "ParamGroup11",
+			"Name": "身體_Y"
+		},
+		{
+			"Id": "Body__Z",
+			"GroupId": "ParamGroup11",
+			"Name": "身體_Z"
+		},
+		{
+			"Id": "Body_Down_Y",
+			"GroupId": "ParamGroup11",
+			"Name": "身體_下半_Y"
+		},
+		{
+			"Id": "Body_Down_Z",
+			"GroupId": "ParamGroup11",
+			"Name": "身體_下半_Z"
+		},
+		{
+			"Id": "Animated_code",
+			"GroupId": "",
+			"Name": "動畫_Code流動"
+		},
+		{
+			"Id": "Animated_eyefire_shake",
+			"GroupId": "",
+			"Name": "動畫_眼睛火亮光擺動"
+		}
+	],
+	"ParameterGroups": [
+		{
+			"Id": "ParamGroup2",
+			"GroupId": "",
+			"Name": "眼"
+		},
+		{
+			"Id": "ParamGroup3",
+			"GroupId": "",
+			"Name": "眼_RGB"
+		},
+		{
+			"Id": "ParamGroup4",
+			"GroupId": "",
+			"Name": "嘴"
+		},
+		{
+			"Id": "ParamGroup",
+			"GroupId": "",
+			"Name": "嘴_RGB"
+		},
+		{
+			"Id": "ParamGroup6",
+			"GroupId": "",
+			"Name": "前髮_RGB"
+		},
+		{
+			"Id": "ParamGroup5",
+			"GroupId": "",
+			"Name": "LED_RGB"
+		},
+		{
+			"Id": "ParamGroup7",
+			"GroupId": "",
+			"Name": "頭_XYZ"
+		},
+		{
+			"Id": "ParamGroup8",
+			"GroupId": "",
+			"Name": "物理"
+		},
+		{
+			"Id": "ParamGroup9",
+			"GroupId": "",
+			"Name": "表情"
+		},
+		{
+			"Id": "ParamGroup12",
+			"GroupId": "",
+			"Name": "眼睛火亮光_RGB"
+		},
+		{
+			"Id": "ParamGroup10",
+			"GroupId": "",
+			"Name": "雙手"
+		},
+		{
+			"Id": "ParamGroup11",
+			"GroupId": "",
+			"Name": "身體"
+		}
+	],
+	"Parts": [
+		{
+			"Id": "Part89",
+			"Name": "0622開始製作(0622).psd(未找到对应图层)"
+		},
+		{
+			"Id": "Part85",
+			"Name": "0622開始製作.psd(未找到对应图层)"
+		},
+		{
+			"Id": "Part",
+			"Name": "新繪製"
+		},
+		{
+			"Id": "Part45",
+			"Name": "新繪製"
+		},
+		{
+			"Id": "Part2",
+			"Name": "頭"
+		},
+		{
+			"Id": "Part40",
+			"Name": "CODE"
+		},
+		{
+			"Id": "Part13",
+			"Name": "夾克"
+		},
+		{
+			"Id": "Part20",
+			"Name": "胸綁帶"
+		},
+		{
+			"Id": "Part21",
+			"Name": "腰帶1"
+		},
+		{
+			"Id": "Part22",
+			"Name": "腰帶2"
+		},
+		{
+			"Id": "Part42",
+			"Name": "上衣_CODE"
+		},
+		{
+			"Id": "Part23",
+			"Name": "上衣"
+		},
+		{
+			"Id": "Part24",
+			"Name": "上衣_左袖"
+		},
+		{
+			"Id": "Part25",
+			"Name": "上衣_右袖"
+		},
+		{
+			"Id": "Part26",
+			"Name": "護腰"
+		},
+		{
+			"Id": "Part27",
+			"Name": "左鞋子"
+		},
+		{
+			"Id": "Part28",
+			"Name": "右鞋子"
+		},
+		{
+			"Id": "Part29",
+			"Name": "褲子"
+		},
+		{
+			"Id": "Part30",
+			"Name": "右手手套"
+		},
+		{
+			"Id": "Part31",
+			"Name": "左手手套"
+		},
+		{
+			"Id": "Part32",
+			"Name": "身體"
+		},
+		{
+			"Id": "Part33",
+			"Name": "右手手套(後)"
+		},
+		{
+			"Id": "Part34",
+			"Name": "左手手套(後)"
+		},
+		{
+			"Id": "Part35",
+			"Name": "左鞋子(後)"
+		},
+		{
+			"Id": "Part36",
+			"Name": "右鞋子(後)"
+		},
+		{
+			"Id": "Part37",
+			"Name": "腰帶1(後)"
+		},
+		{
+			"Id": "Part38",
+			"Name": "上衣(後)"
+		},
+		{
+			"Id": "Part39",
+			"Name": "夾克(後)"
+		},
+		{
+			"Id": "Part46",
+			"Name": "頭"
+		},
+		{
+			"Id": "Part3",
+			"Name": "前髮"
+		},
+		{
+			"Id": "Part5",
+			"Name": "嘴"
+		},
+		{
+			"Id": "Part6",
+			"Name": "LED口罩"
+		},
+		{
+			"Id": "Part7",
+			"Name": "左眼"
+		},
+		{
+			"Id": "Part9",
+			"Name": "右眼"
+		},
+		{
+			"Id": "Part12",
+			"Name": "鼻子"
+		},
+		{
+			"Id": "Part43",
+			"Name": "手套_CODE"
+		},
+		{
+			"Id": "Part41",
+			"Name": "夾克_CODE"
+		},
+		{
+			"Id": "Part14",
+			"Name": "夾克_右前"
+		},
+		{
+			"Id": "Part15",
+			"Name": "夾克_左前"
+		},
+		{
+			"Id": "Part16",
+			"Name": "夾克_右"
+		},
+		{
+			"Id": "Part17",
+			"Name": "夾克_左"
+		},
+		{
+			"Id": "Part44",
+			"Name": "夾克_雙手_CODE"
+		},
+		{
+			"Id": "Part18",
+			"Name": "夾克_右袖"
+		},
+		{
+			"Id": "Part19",
+			"Name": "夾克_左袖"
+		},
+		{
+			"Id": "Part49",
+			"Name": "嘴"
+		},
+		{
+			"Id": "Part4",
+			"Name": "前髮_左1"
+		},
+		{
+			"Id": "Part8",
+			"Name": "左瞳孔"
+		},
+		{
+			"Id": "Part10",
+			"Name": "右眉毛_"
+		},
+		{
+			"Id": "Part11",
+			"Name": "右瞳孔"
+		}
+	],
+	"CombinedParameters": [
+		[
+			"ParamEyeBallX",
+			"ParamEyeBallY"
+		],
+		[
+			"ParamAngleX",
+			"ParamAngleY"
+		],
+		[
+			"Arm_Phy_X",
+			"Arm_Phy_Y"
+		],
+		[
+			"Body_Phy_X2",
+			"Body_Phy_X3"
+		],
+		[
+			"Eye_Fire_Phy_X",
+			"Eye_Fire_Phy_Y"
+		]
+	]
+}
